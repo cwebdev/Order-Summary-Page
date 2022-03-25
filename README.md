@@ -25,10 +25,15 @@ This product order summary page of subscription plan is developed in HTML5, CSS3
 
 ### Desktop Screenshot
 
+![](./Desktop_Screenshot.png)
+
 #### Mobile Screenshot
+
+![](./Mobile_Screenshot.png)
 
 ### Links
 
+Live Site Link: https://cwebdev.github.io/Order-Summary-Page/
 
 ## My process
 
