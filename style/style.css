@@ -142,10 +142,13 @@ body {
 	margin-top: var(--detail-margin);
 	margin-bottom: var(--detail-margin);
 	min-height: 3em;
+	-webkit-box-shadow: -1px 5px 17px -1px rgba(118,108,241,0.41);
+	-moz-box-shadow: -1px 5px 17px -1px rgba(118,108,241,0.41);
+	box-shadow: -1px 5px 17px -1px rgba(118,108,241,0.41);
 }
 
 .hero__payment-btn-container:hover {
-	background-color: var(--desaturated-blue);
+	background-color: #766cf1;
 }
 
 .hero__payment-btn {	
