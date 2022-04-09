@@ -10,6 +10,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-color: var(--pale-blue);	
+	min-height: 100vh;
+	display: flex;	
+	align-items: center;
 }
 
 .container {	
@@ -17,8 +20,7 @@ body {
 	max-width: 450px;
 	margin: auto;
 	border-radius: 15px;	
-	background-color: white;
-	margin-top: 5em;
+	background-color: white;	
 }
 
 .header__order-image {
@@ -170,14 +172,4 @@ body {
 .hero__cancel-btn {	
 	width: 100%;
 	text-align: center;
-}
-
-
-/* Media queries */
-@media only screen and (min-width: 600px) {
-	
-}
-
-@media only screen and (min-width: 1000px) {
-	
 }
