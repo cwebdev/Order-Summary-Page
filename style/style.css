@@ -10,7 +10,7 @@ body {
 	background-color: hsl(225, 100%, 98%);
 }
 
-.MainCardWrapper {
+.container {
 	height: 700px;
 	width: 500px;
 	margin: auto;
@@ -19,7 +19,7 @@ body {
 	background-color: white;
 }
 
-.OrderImage {
+.header__order-image {
 	background-image: url('../images/illustration-hero.svg');
 	height: 250px;
 	width: 100%;
@@ -29,28 +29,28 @@ body {
 	border-top-right-radius: 15px;
 }
 
-.OrderSummaryWrapper {
+.hero {
 	height: 450px;
 	width: 100%;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
 
-.OrderSummaryContentWrapper {
+.hero__container {
 	display: flex;
 	flex-direction: column;
 	width: 80%;
 	margin: auto;
 }
 
-.OrderSummaryTitleWrapper {
+.hero__title-container {
 	display: flex;
 	align-items: center;
 	height: 70px;
 	margin-top: 30px;
 }
 
-.OrderSummaryTitle {
+.hero__title {
 	width: 100%;
 	text-align: center;
 	font-size: 24px;
@@ -58,19 +58,19 @@ body {
 	height: 30px;
 }
 
-.OrderDetailsWrapper {
+.hero__order-details-container {
 	text-align: center;
 	height: 100px;
 	display: flex;
 }
 
-.OrderDetails {
+.hero__order-details {
 	height: 40px;
 	color: hsl(224, 23%, 55%);
 	font-size: 18px;
 }
 
-.AnnualPlanWrapper {
+.hero__annual-plan-container {
 	height: 80px;
 	border-radius: 15px;
 	background-color: hsl(225, 100%, 98%);
@@ -78,14 +78,14 @@ body {
 	flex-wrap: nowrap;
 }
 
-.ProductIconWrapper {
+.hero__icon-container {
 	width: 30%;
 	height: 80px;
 	display: flex;
 	align-items: center;
 }
 
-.ProductIcon {
+.hero__icon {
 	background-image: url('../images/icon-music.svg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -94,43 +94,43 @@ body {
 	margin: auto;
 }
 
-.PlanDetailsWrapper {
+.hero__plan-container {
 	width: 40%;
 	height: 80px;
 	display: flex;
 	align-items: center;
 }
 
-.PlanDetails {
+.hero__plan-details {
 	height: 40px;
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.PlanName {
+.hero__plan-name {
 	width: 100%;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.PlanPrice {
+.hero__plan-price {
 	width: 100%;
 	color: hsl(224, 23%, 55%);
 }
 
-.ChangeBtnWrapper {
+.hero__change-btn-container {
 	width: 30%;
 	height: 80px;
 	display: flex;
 	align-items: center;
 }
 
-.ChangeBtn {
+.hero__change-btn {
 	margin: auto;
 }
 
-.PaymentBtnWrapper {
+.hero__payment-btn-container {
 	margin-top: 35px;
 	display: flex;
 	align-items: center;
@@ -140,18 +140,18 @@ body {
 	cursor: pointer;
 }
 
-.PaymentBtnWrapper:hover {
+.hero__payment-btn-container:hover {
 	background-color: hsl(224, 23%, 55%);
 }
 
-.PaymentBtn {
+.hero__payment-btn {
 	height: 20px;
 	width: 100%;
 	color: white;
 	text-align: center;
 }
 
-.CancelOrderBtnWrapper {
+.hero__cancel-btn-container {
 	margin-top: 5px;
 	display: flex;
 	align-items: center;
@@ -160,95 +160,18 @@ body {
 	cursor: pointer;
 }
 
-.CancelOrderBtn {
+.hero__cancel-btn {
 	height: 20px;
 	width: 100%;
 	text-align: center;
 }
 
 
-/* For mobile phones: */
-
-[class*="col-"] {
-	width: 100%;
-}
-
+/* Media queries */
 @media only screen and (min-width: 600px) {
-	/* For tablets: */
-	.col-s-1 {
-		width: 8.33%;
-	}
-	.col-s-2 {
-		width: 16.66%;
-	}
-	.col-s-3 {
-		width: 25%;
-	}
-	.col-s-4 {
-		width: 33.33%;
-	}
-	.col-s-5 {
-		width: 41.66%;
-	}
-	.col-s-6 {
-		width: 50%;
-	}
-	.col-s-7 {
-		width: 58.33%;
-	}
-	.col-s-8 {
-		width: 66.66%;
-	}
-	.col-s-9 {
-		width: 75%;
-	}
-	.col-s-10 {
-		width: 83.33%;
-	}
-	.col-s-11 {
-		width: 91.66%;
-	}
-	.col-s-12 {
-		width: 100%;
-	}
+	
 }
 
 @media only screen and (min-width: 1000px) {
-	/* For desktop: */
-	.col-1 {
-		width: 8.33%;
-	}
-	.col-2 {
-		width: 16.66%;
-	}
-	.col-3 {
-		width: 25%;
-	}
-	.col-4 {
-		width: 33.33%;
-	}
-	.col-5 {
-		width: 41.66%;
-	}
-	.col-6 {
-		width: 50%;
-	}
-	.col-7 {
-		width: 58.33%;
-	}
-	.col-8 {
-		width: 66.66%;
-	}
-	.col-9 {
-		width: 75%;
-	}
-	.col-10 {
-		width: 83.33%;
-	}
-	.col-11 {
-		width: 91.66%;
-	}
-	.col-12 {
-		width: 100%;
-	}
+	
 }
